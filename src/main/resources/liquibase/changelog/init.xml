@@ -15,7 +15,7 @@
             <column name="ID" type="BIGINT" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false" />
             </column>
-            <column name="TEXT" type="VARCHAR(500)">
+            <column name="MESSAGE" type="VARCHAR(500)">
                 <constraints nullable="false" />
             </column>
         </createTable>

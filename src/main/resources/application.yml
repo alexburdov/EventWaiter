@@ -1,6 +1,7 @@
 spring:
     application:
         name: EventWaiter
+
     datasource:
         driver-class-name: org.postgresql.Driver
         url: jdbc:postgresql://localhost:5432/event
@@ -10,3 +11,8 @@ spring:
     liquibase:
         change-log: classpath:liquibase/master.xml
         enabled: true
+
+    kafka:
+        bootstrap-servers: localhost:9092
+        default-group-id: example
+        add-example-record-topic: example-topic
