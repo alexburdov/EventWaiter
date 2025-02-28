@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+/.PVS-Studio/ide-warnings.json
+/.mvn/wrapper/maven-wrapper.properties
+/.PVS-Studio/settings.json
